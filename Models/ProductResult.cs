@@ -1,5 +1,4 @@
-﻿using MegaventoryCart.Enums.Product;
-
+﻿
 namespace MegaventoryCart.Models
 {
     public class ProductResult
