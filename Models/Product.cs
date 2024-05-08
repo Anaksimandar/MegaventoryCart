@@ -4,11 +4,10 @@ namespace MegaventoryCart.Models
 {
     public class Product
     {
-        public int Id { get; set; }
-        public int SKU {  get; set; }
-        public string Description { get; set; }
-        public double SalesPrice { get; set; }
-        public double PurchasePrice { get; set; }
-        public RecordAction mvRecordAction { get; set; }
+        public int ProductID { get; set; }
+        public int ProductSKU {  get; set; }
+        public string ProductDescription { get; set; }
+        public double ProductSellingPrice { get; set; }
+        public double ProductPurchasePrice { get; set; }
     }
 }
