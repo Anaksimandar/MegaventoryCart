@@ -1,0 +1,6 @@
+@MegaventoryCart_HostAddress = http://localhost:5272
+
+GET {{MegaventoryCart_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
