@@ -1,5 +1,5 @@
-﻿using MegaventoryCart.Enums;
-using MegaventoryCart.Enums.Product;
+﻿using MegaventoryCart.Enums.Product;
+using MegaventoryCart.Enums.SupplierClient;
 
 namespace MegaventoryCart.Models
 {
