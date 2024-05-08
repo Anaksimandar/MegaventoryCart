@@ -1,3 +1,9 @@
+using MegaventoryCart.Services.InventoryLocation;
+using MegaventoryCart.Services.InventoryLocationService;
+using MegaventoryCart.Services.ProductService;
+using MegaventoryCart.Services.SupplierClient;
+using MegaventoryCart.Services.SupplierClientService;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +12,12 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ISupplierClientService, SupplierClientService>();
+builder.Services.AddScoped<IInventoryLocationService, InventoryLocationService>();
+
+builder.Services.AddHttpClient();
+
 
 var app = builder.Build();
 
