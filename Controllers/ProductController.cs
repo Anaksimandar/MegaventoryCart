@@ -1,4 +1,4 @@
-﻿using MegaventoryCart.Models;
+﻿using MegaventoryCart.Models.Product;
 using MegaventoryCart.Services.ProductService;
 using Microsoft.AspNetCore.Mvc;
 

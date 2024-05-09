@@ -1,4 +1,4 @@
-﻿using MegaventoryCart.Models;
+﻿using MegaventoryCart.Models.Product;
 
 namespace MegaventoryCart.Services.ProductService
 {
