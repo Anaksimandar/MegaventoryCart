@@ -1,5 +1,6 @@
 using MegaventoryCart.Services.InventoryLocation;
 using MegaventoryCart.Services.InventoryLocationService;
+using MegaventoryCart.Services.InventoryLocationStock;
 using MegaventoryCart.Services.ProductClient;
 using MegaventoryCart.Services.ProductService;
 using MegaventoryCart.Services.ProductSupplierRelationship;
@@ -20,6 +21,7 @@ builder.Services.AddScoped<ISupplierClientService, SupplierClientService>();
 builder.Services.AddScoped<IInventoryLocationService, InventoryLocationService>();
 builder.Services.AddScoped<IProductClientRelationshipService, ProductClientRelationshipService>();
 builder.Services.AddScoped<IProductSupplierRelationshipService, ProductSupplierRelationshipService>();
+builder.Services.AddScoped<IInventoryLocationStockProvider, InventoryLocationStockService>();
 builder.Services.AddScoped<IRestService, RestService>();
 
 builder.Services.AddHttpClient();
