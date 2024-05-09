@@ -1,5 +1,4 @@
-﻿
-namespace MegaventoryCart.Models
+﻿namespace MegaventoryCart.Models.Product
 {
     public class ProductResult
     {
